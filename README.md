@@ -2,7 +2,7 @@
 tags:
 - generated_from_trainer
 datasets:
-- sroie
+- invoice
 metrics:
 - precision
 - recall
@@ -15,9 +15,9 @@ model-index:
       name: Token Classification
       type: token-classification
     dataset:
-      name: sroie
-      type: sroie
-      args: sroie
+      name: Invoice
+      type: invoice
+      args: invoice
     metrics:
     - name: Precision
       type: precision
@@ -38,7 +38,7 @@ should probably proofread and complete it, then remove this comment. -->
 
 # layoutlmv3-finetuned-invoice
 
-This model is a fine-tuned version of [microsoft/layoutlmv3-base](https://huggingface.co/microsoft/layoutlmv3-base) on the sroie dataset.
+This model is a fine-tuned version of [microsoft/layoutlmv3-base](https://huggingface.co/microsoft/layoutlmv3-base) on the invoice dataset.
 It achieves the following results on the evaluation set:
 - Loss: 0.0012
 - Precision: 1.0
