@@ -55,8 +55,14 @@ More information needed
 More information needed
 
 ## Training and evaluation data
+All the training codes are available from the below GitHub link.
 
-More information needed
+https://github.com/Theivaprakasham/layoutlmv3
+
+
+The model can be evaluated at the HuggingFace Spaces link:
+
+https://huggingface.co/spaces/Theivaprakasham/layoutlmv3_invoice
 
 ## Training procedure
 
