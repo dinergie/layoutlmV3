@@ -33,12 +33,12 @@ model-index:
       value: 1.0
 ---
 
-<!-- This model card has been generated automatically according to the information the Trainer had access to. You
-should probably proofread and complete it, then remove this comment. -->
-
-# layoutlmv3-finetuned-invoice
+# LayoutLM-v3 model fine-tuned on invoice dataset
 
 This model is a fine-tuned version of [microsoft/layoutlmv3-base](https://huggingface.co/microsoft/layoutlmv3-base) on the invoice dataset.
+
+We use Microsoft’s LayoutLMv3 trained on Invoice Dataset to predict the Biller Name, Biller Address, Biller post_code, Due_date, GST, Invoice_date, Invoice_number, Subtotal and Total. To use it, simply upload an image or use the example image below. Results will show up in a few seconds.
+
 It achieves the following results on the evaluation set:
 - Loss: 0.0012
 - Precision: 1.0
